@@ -9,7 +9,7 @@ node {
     stage('Clone Repo '){
         echo 'Cloning Repo'
         git(
-            branch: main,
+            branch: 'main' ,
             url: 'https://github.com/Salman-khan10/CICD-jenkins-AWS'
         )
     }
